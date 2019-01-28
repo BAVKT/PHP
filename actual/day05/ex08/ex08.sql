@@ -1,0 +1,1 @@
+SELECT nom, prenom, DATE_FORMAT(date_de_creation, '%Y %M %d') FROM fiche_personne WHERE YEAR(date_de_creation) == 1989 ORDER BY nom

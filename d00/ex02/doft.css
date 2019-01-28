@@ -1,0 +1,292 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   doft.css                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vmercadi <vmercadi@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/01/08 11:52:11 by vmercadi          #+#    #+#             */
+/*   Updated: 2018/01/08 21:26:13 by vmercadi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+
+body { background-color: #505050; }
+div
+{
+	background-color: #909090;
+	border-radius: 15px 15px 15px 15px;
+  	box-shadow: 10px 10px 15px #000;
+}
+/* div 1 -------------------------------- */
+#titre
+{
+	position: absolute;
+	width: 1500px;
+	height: 170px;
+	margin-left: 100px;
+	margin-top: 10px;
+}
+#day
+{
+	display: absolute;
+	margin-left: 1%;
+	margin-top: 1%;
+	width: 35%;
+	height: 70%;
+}
+#loupe
+{
+	position: absolute;
+	margin-left: 615px;
+	margin-top: 7px;
+	width: 300px;
+	height: 190px;
+}
+#croix
+{
+	position: absolute;
+	margin-left: 925px;
+	margin-top: 142px;
+	width: 22px;
+	height: 20px;
+}
+#fleche
+{
+	position: absolute;
+	margin-left: 925px;
+	margin-top: 12px;
+	width: 22px;
+	height: 20px;
+}
+
+/* div 2 -------------------------------- */
+#mleft
+{
+	position: absolute;
+	width: 150px;
+	height: 500px;
+	margin-left: 140px;
+	margin-top: 200px;
+}
+#flechev
+{
+	position: absolute;
+	margin-left: 35px;
+	margin-top: 15px;
+	width: 75px;
+	height: 75px;
+}
+#main
+{
+	position: absolute;
+	margin-left: 35px;
+	margin-top: 110px;
+	width: 75px;
+	height: 75px;
+}
+#oeil
+{
+	position: absolute;
+	margin-left: 35px;
+	margin-top: 200px;
+	width: 75px;
+	height: 75px;
+	border: solid red 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+#outil
+{
+	position: absolute;
+	margin-left: 35px;
+	margin-top: 300px;
+	width: 75px;
+	height: 75px;
+}
+#chat-icon
+{
+	position: absolute;
+	margin-left: 35px;
+	margin-top: 390px;
+	width: 75px;
+	height: 75px;
+}
+
+/* div 3 -------------------------------- */
+#cluster
+{
+	position: absolute;
+	width: 1050px;
+	height: 690px;
+	margin-left: 330px;
+	margin-top: 200px;
+}
+#clusterimg
+{
+	width: 1030px;
+	height: 670px;
+	margin: 10px;
+}
+#ikea
+{
+	position: absolute;
+	background-color: none;
+	background: none;
+	border: none;
+	box-shadow: none;
+	width: 130px;
+	height: 180px;
+	margin-top: -300px;
+	margin-left: 330px;
+}
+#apple
+{
+	position: absolute;
+	background-color: none;
+	background: none;
+	border: none;
+	box-shadow: none;
+	width: 170px;
+	height: 130px;
+	margin-top: -300px;
+	margin-left: 830px;
+}
+
+/* div 4 -------------------------------- */
+#mright
+{
+	position: absolute;
+	width: 150px;
+	height: 500px;
+	margin-left: 1420px;
+	margin-top: 200px;
+}
+#book
+{
+	position: absolute;
+	margin-left: 35px;
+	margin-top: 20px;
+	width: 80px;
+	height: 100px;
+}
+#towel
+{
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 130px;
+	width: 90px;
+	height: 70px;
+}
+#brick
+{
+	position: absolute;
+	background-image:url("resources/brick.jpg");
+	background-repeat: repeat;
+	border-radius: 0px 0px 0px 0px;
+  	box-shadow: none;
+	margin-left: 15px;
+	margin-top: 210px;
+	width: 120px;
+	height: 70px;
+}
+
+/* div 5 -------------------------------- */
+#form
+{
+	background-color: #8CFD8E;
+	position: absolute;
+	width: 550px;
+	height: 195px;
+	margin-left: 50px;
+	margin-top: 800px;
+	padding: 5px;
+	font-size: 20px;
+	font-family: verdana;
+}
+#area
+{
+	position: absolute;
+	width: 370px;
+	height: 16px;
+	margin-left: 10px;
+	margin-top: -10px;
+}
+#p1
+{
+	text-shadow: 4px 6px 4px #bb0000;
+}
+#p2
+{
+
+}
+#form p
+{
+	font-family: times;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+#button
+{
+	position: absolute;
+	border-radius: 3px 3px 3px 3px;
+	background: linear-gradient(to top, #D7D8D7, #ffffff);
+	height: 20px;
+	margin-left: 390px;
+	margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

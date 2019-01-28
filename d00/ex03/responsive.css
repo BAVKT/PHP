@@ -1,0 +1,63 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   responsive.css                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vmercadi <vmercadi@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/01/07 15:27:35 by vmercadi          #+#    #+#             */
+/*   Updated: 2018/01/07 18:35:42 by vmercadi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+body
+{
+	background: linear-gradient(to right, #CC6600,#FF9933,#F2F20D,#EEFFCC,#ffff00,#B152E0,#3399CC);
+}
+p
+{
+	height: 0.5vmin;
+}
+table
+{
+	position: absolute;
+	top: 1vh;
+	left: 1vw;
+}
+img
+{
+	position: absolute;
+	top: 1px;
+	left: 40vw;
+	width: 5vmin;
+	height: 5vmin;
+}
+.p1
+{
+	font-family: symbol;
+	text-align: right;
+	font-size: 1.5vmin;
+}
+.p2
+{
+	font-family: Tahoma, sans-serif, ;
+	text-align: center;
+	font-size: 3vmin;
+}
+.p3
+{
+	font-family: arial;
+	text-align: left;
+	font-size: 1.5vmin;
+}
+.violet{ background-image:linear-gradient(#D8A8F0, #B152E0); }
+.bleu{ background-image:linear-gradient(#ADD6EB, #3399CC); }
+.orange{ background-image:linear-gradient(#FF8000, #CC6600); }
+.orangeclair{ background-image:linear-gradient(#FFB266, #FF9933); }
+.vertfluo{ background-image:linear-gradient(#DFFAD1, #7EEB47); }
+.jaunepisse{ background-image:linear-gradient(#FAFA9E, #F2F20D); }
+.jaune{ background-image:linear-gradient(#ffff99, #ffff00); }
+.pink{ background-image:linear-gradient(#F7D4F1, #E052C9); }
+.grey{ background-image:linear-gradient(#CAC7D1, #7B738C); }
+.vertpisse{ background-image:linear-gradient(#E8E87D, #ADAD1F); }
+.vertpomme{ background-image:linear-gradient(#EEFFCC, #CCFF66); }

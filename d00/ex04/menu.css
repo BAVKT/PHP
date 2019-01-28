@@ -1,0 +1,76 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   menu.css                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vmercadi <vmercadi@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/01/07 15:34:03 by vmercadi          #+#    #+#             */
+/*   Updated: 2018/01/08 21:18:02 by vmercadi         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+body
+{
+	background-image: url("https://fthmb.tqn.com/6uBK4gnlOMHa4Dlsr4GQ64rnb0Q=/3867x2578/filters:no_upscale()/Baked-Turkey-Sandwich-58add8dd3df78c345bdf210c.jpg");
+	background-size: 100%;
+	width: 100%;
+}
+h1
+{
+	font-family: fantasy, tahoma;
+	text-align: center;
+	font-size: 12vmin;
+    text-shadow: 2px 2px #ffffff;
+}
+a
+{
+	font-size: 3vmin;
+	text-decoration:none;
+	display:block;
+	padding:8px 32px;
+	color:#fff;
+	font-family:tahoma;
+}
+#menu
+{
+	text-align: center;
+	position: absolute;
+	top: 40vh;
+	left: 5vw;
+	right: 5vw;
+}
+#menu li
+{
+	position: relative;
+	display:inline-block;
+	border-radius: 30%;
+	width: 20vw;
+}
+#menu ul
+{
+	text-align: center;
+	position:absolute;
+	padding: 0;
+	margin: 0;
+	max-height:0;
+	overflow:hidden;
+	border-radius: 40%;
+}
+#menu li:hover ul { max-height:15em; }
+#menu li:nth-child(1) { background-image:linear-gradient(to top, #982121, #5b1313); }
+#menu li:nth-child(2) { background-image:linear-gradient(to top, #ffb80e, #b28009); }
+#menu li:nth-child(3) { background-image:linear-gradient(to top, #F6AD1A, #9F391A); }
+#menu li:nth-child(4) { background-image:linear-gradient(to top, #17ab00, #0d6600); }
+#menu li:nth-child(1) li { background-image: radial-gradient(#982121, #5b1313); border-radius: 10px 10px 10px 10px; }
+#menu li:nth-child(2) li { background-image: radial-gradient(#ffb80e, #b28009); border-radius: 10px 10px 10px 10px; }
+#menu li:nth-child(3) li { background-image: radial-gradient(#F6AD1A, #9F391A); border-radius: 10px 10px 10px 10px; }
+#menu li:nth-child(4) li { background-image: radial-gradient(#17ab00, #0d6600); border-radius: 10px 10px 10px 10px; }
+#menu li:nth-child(1) li:hover { background:#982121; }
+#menu li:nth-child(2) li:hover { background:#ffb80e; }
+#menu li:nth-child(3) li:hover { background:#F6AD1A; }
+#menu li:nth-child(4) li:hover { background:#17ab00; }
+
+
+/*
+** CHANGER LES COULEURS
+*/

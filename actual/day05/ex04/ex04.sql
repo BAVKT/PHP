@@ -1,0 +1,1 @@
+UPDATE ft_table SET date_de_creation += 20 WHERE id < 5
